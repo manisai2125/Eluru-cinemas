@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Eluru Cinemas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style11.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="/FIRST_PROJECT/Logo.png" class="Logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+      <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="#">Features</a>
+      <a class="nav-link" href="#">About Me</a>
+    </div>
+  </div>
+</nav>
+
+  <!-- Home -->
+  <section id="sectionhome">
+    <div class="Page-1-background d-flex flex-column justify-content-center align-items-center text-center">
+      <h1 class="main-heading">Welcome to Eluru Cinemas</h1>
+      <p class="paragraph">
+        Eluru Cinemas brings big‑screen magic to the city with Barco 4K projection and thunderous Dolby Atmos sound, making every show feel immersive and grand.
+      </p>
+      <button class="btn btn-primary mt-3" onclick="showSection('sectionlistofTheatres')">Let’s go</button>
+    </div>
+  </section>
+
+  <!-- Theatres list -->
+  <section id="sectionlistofTheatres" style="display:none;">
+    <div class="Page-2-background">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="main-heading2">List of notable movie theatres in Eluru:</h1>
+
+          <!-- SVC -->
+          <div class="bbe mb-4" onclick="showSection('sectiondetailedview')">
+            <h2 class="svc">SVC Cinemas (CMR Mall, opposite New Bus Stand)</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/CMR_Multiplex_in_Eluru_%2801%29.jpg/1600px-CMR_Multiplex_in_Eluru_%2801%29.jpg" class="svcimg" alt="SVC Cinemas, CMR Mall Eluru">
+            <p class="svcp">Modern multiplex with Dolby Atmos and 4K projection.</p>
+          </div>
+
+          <!-- Sri Satyanarayana -->
+          <div class="bbe mb-4" onclick="showSection('sectiondetailedviewsatya')">
+            <h2 class="svc">Sri Satyanarayana Cinemas</h2>
+            <img src="https://images.jdmagicbox.com/comp/eluru/q9/9999p8812.8812.180606052319.a5q9/catalogue/sri-satyanarayana-cinemas-benerjipeta-eluru-cinema-halls-kp9ruc1eta.jpg" class="svcimg" alt="Sri Satyanarayana Cinemas">
+            <p class="svcp">One of Eluru's classic single-screen theatres.</p>
+          </div>
+
+          <!-- Sai Balaji -->
+          <div class="bbe mb-4" onclick="showSection('sectiondetailedviewsai')" >
+            <h2 class="svc">Sai Balaji Cinema Hall</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHZFv-NRnuegUkjmbO09k7eK8SZzthzCZC-brNIGQ5D5NtTlM9tOkovoKuIMSM2GJO7iU" class="svcimg" alt="Sai Balaji Cinema Hall">
+            <p class="svcp">Centrally known traditional theatre.</p>
+          </div>
+
+          <!-- Ambica -->
+          <div class="bbe mb-4" onclick="showSection('sectiondetailedviewambica')">
+            <h2 class="svc">Ambica Deluxe Cinema Hall / Ambica Complex</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMCZdrkLoOxwZSSNoO2D941p5owt2d8EJUhA" class="svcimg" alt="Ambica Complex">
+            <p class="svcp">Long‑running local theatre.</p>
+          </div>
+
+          <!-- V Max -->
+          <div class="bbe mb-4" onclick="showSection('sectiondetailedviewvmax')">
+            <h2 class="svc">V Max</h2>
+            <img src="https://content.jdmagicbox.com/comp/eluru/g9/9999p8812.8812.170930072535.p9g9/catalogue/v-max-cinema-hall-benerjipeta-eluru-telugu-movies-4z837ikx0h.jpg" class="svcimg" alt="V Max Theatre">
+            <p class="svcp">A smooth movie night at V Max.</p>
+          </div>
+
+          <button class="btn btn-secondary" onclick="showSection('sectionhome')">Back</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Detailed view -->
+  <section id="sectiondetailedview" style="display:none;">
+    <div class="detailviewbackground">
+      <h1 class="heading3">Details of the theatres</h1>
+
+      <div class="embed-responsive embed-responsive-16by9 mb-4">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/q6U-_OJR-jI?rel=0" allowfullscreen title="SVC Cinemas walkthrough"></iframe>
+      </div>
+
+      <div class="svcpp">
+        <h2 class="heading3">Details of SVC in CMR Central</h2>
+        <p>
+          SVC Cinemas at CMR Mall, Eluru is a multiplex near the New Bus Stand on Vijayawada Road, featuring 4K projection with Dolby Atmos sound, multiple daily showtimes for Telugu and Hindi films, online booking through major platforms, and amenities like air‑conditioning, parking, digital payments, F&amp;B, wheelchair‑friendly access, and some recliner seating; typical seat categories include Gold and premium options, with prices varying by movie and timing—check the day’s schedule before visiting.
+        </p>
+      </div>
+
+      <button class="btn btn-secondary" onclick="showSection('sectionlistofTheatres')">Back</button>
+    </div>
+  </section>
+    <section id="sectiondetailedviewsatya" style="display:none;">
+    <div class="detailviewbackground">
+      <h1 class="heading3">Details of the theatres</h1>
+
+      <div class="embed-responsive embed-responsive-16by9 mb-4">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/R3GxcH_y-tw?rel=0" allowfullscreen title="Satyanarayana Cinemas walkthrough"></iframe>
+      </div>
+
+      <div class="svcpp">
+        <h2 class="heading3">Details of sri-satyanarayana-cinemas-benerjipeta-eluru-cinema-halls</h2>
+        <p>
+Sri Satyanarayana Cinemas: Located on Eastern Street, Paidichintapadu, Eluru (also sometimes referenced in Benerjipeta), this is a classic local cinema screening a variety of regional and popular releases. It typically offers multiple showtimes across the day for new Telugu and Hindi films. Ticket booking is available online and at the theatre, with typical pricing brackets including Floor, Bench, and Balcony categories. The theatre is well-known locally but may have more basic amenities compared to modern multiplexes.        </p>
+      </div>
+
+      <button class="btn btn-secondary" onclick="showSection('sectionlistofTheatres')">Back</button>
+    </div>
+  </section>
+  <section id="sectiondetailedviewsai" style="display:none;">
+    <div class="detailviewbackground">
+      <h1 class="heading3">Details of the theatres</h1>
+
+      <div class="embed-responsive embed-responsive-16by9 mb-4">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AN8RJNLFLeM?rel=0" allowfullscreen title="Satyanarayana Cinemas walkthrough"></iframe>
+      </div>
+
+      <div class="svcpp">
+        <h2 class="heading3">Details of sai-balaji-eluru-cinema-halls</h2>
+        <p>
+Sai Balaji Cinema Hall: Situated in Main Bazar, near Gopala Krishna Theatre, Agraharam, this theatre complex is centrally located and popular for regional cinema, including daily showings of Telugu movies. It is known for its accessibility, multiple showtime slots, and price categories such as Third Class, Second Class, and First Class (with prices like ₹50, ₹80, and ₹150 respectively). Online booking is supported by platforms like TicketNew and Paytm.      </div>
+
+      <button class="btn btn-secondary" onclick="showSection('sectionlistofTheatres')">Back</button>
+    </div>
+</section>
+<section id="sectiondetailedviewambica" style="display:none;">
+    <div class="detailviewbackground">
+      <h1 class="heading3">Details of the theatres</h1>
+
+      <div class="embed-responsive embed-responsive-16by9 mb-4">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/41C9sMzDn-Q?rel=0" allowfullscreen title="Satyanarayana Cinemas walkthrough"></iframe>
+      </div>
+
+      <div class="svcpp">
+        <h2 class="heading3">Details of Ambica-eluru-cinema-halls</h2>
+        <p>
+Ambica Deluxe / Ambica Complex: Found on Western Street or in Agraharam, 1 Town, Eluru, this long-running single-screen theatre is a legacy venue for local audiences. With a seating capacity of around 383, it hosts a variety of movie formats and maintains a strong neighborhood presence. Amenities prioritize broad accessibility and value, with online ticketing widely available.
+      <button class="btn btn-secondary" onclick="showSection('sectionlistofTheatres')">Back</button>
+    </div>
+</section>
+<section id="sectiondetailedviewvmax" style="display:none;">
+    <div class="detailviewbackground">
+      <h1 class="heading3">Details of the theatres</h1>
+
+      <div class="embed-responsive embed-responsive-16by9 mb-4">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Jwe0BhJnObg?rel=0" allowfullscreen title="Satyanarayana Cinemas walkthrough"></iframe>
+      </div>
+
+      <div class="svcpp">
+        <h2 class="heading3">Details of V-Max-eluru-cinema-halls</h2>
+        <p>
+V Max Theatre: Located at Thoorpu Veedhi, Eastern Street, Eluru, V Max is a well-rated cinema with a 3.8/5 rating from over 4,000 reviews. It features wheelchair accessible entrances and parking, restaurant and restroom amenities, and is considered family and kid-friendly. The theatre is known for its quality projection (A/C 2K Dolby setup), food options, and cash payments.
+      <button class="btn btn-secondary" onclick="showSection('sectionlistofTheatres')">Back</button>
+    </div>
+</section>
+
+
+
+  <script>
+    
+    // Show exactly one section by id
+    function showSection(id) {
+      var ids = ['sectionhome', 'sectionlistofTheatres', 'sectiondetailedview' ,'sectiondetailedviewsatya' ,'sectiondetailedviewsai' ,'sectiondetailedviewvmax', 'sectiondetailedviewambica'];
+      ids.forEach(function(sec) {
+        var el = document.getElementById(sec);
+        if (el) el.style.display = (sec === id) ? 'block' : 'none';
+      });
+      // Optional: scroll to top for better UX
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

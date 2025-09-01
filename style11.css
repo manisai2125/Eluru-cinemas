@@ -1,0 +1,121 @@
+/* Page 1 */
+.Page-1-background{
+  background-image: url("https://media.gettyimages.com/id/167261822/vector/movie-stars.jpg?s=612x612&w=0&k=20&c=IGsIdGP6hG9a29ehYtaHrKyw2aZpxYHwTB91UssydgQ=");
+  height: 100vh;
+  border-radius: 20px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 3rem;
+}
+
+.main-heading{
+  color: #ffffff;
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  font-style: oblique;
+  text-decoration: underline;
+}
+
+.paragraph{
+  color: rgba(255,255,255,0.93);
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  max-width: 900px;
+}
+
+/* Page 2 */
+.Page-2-background{
+  background-image: url("https://media.gettyimages.com/id/490187418/vector/clapperboard-icon.jpg?s=612x612&w=0&c=QEdXjfZnJbtTUoY9Ov7Mms0zK9fPehfNFMApbaOhIaU=");
+  min-height: 100vh;
+  border-radius: 20px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  margin: 30px;
+  padding: 50px 20px;
+  color: #fff;
+}
+
+.main-heading2{
+  color:#000000;
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  font-style: oblique;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+
+.svc{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}
+
+.svcp{
+  color: #d4ff00;
+  text-align: center;
+  margin-top: .5rem;
+}
+
+.svcimg{
+  height: 30vh;
+  width: 100%;
+  max-width: 600px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.bbe{
+  background-size: cover;
+  padding: 1rem;
+  border-radius: 12px;
+  background: rgba(0,0,0,0.35);
+  cursor: pointer;
+}
+
+/* Detail view */
+.detailviewbackground{
+  background-image: url("https://media.gettyimages.com/id/490187418/vector/clapperboard-icon.jpg?s=612x612&w=0&c=QEdXjfZnJbtTUoY9Ov7Mms0zK9fPehfNFMApbaOhIaU=");
+  min-height: 100vh;
+  border-radius: 20px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  margin: 30px;
+  padding: 40px 20px;
+  color: #fff;
+}
+
+.heading3{
+  color:#fff200;
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  font-style: oblique;
+  text-decoration: underline;
+}
+
+.svcpp{
+  color: #ff7c02;
+  text-align: center;
+  margin: 30px auto;
+  font-size: 1.05rem;
+  max-width: 900px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px){
+  .main-heading{ font-size: 1.6rem; }
+  .svcimg{ height: 24vh; }
+}
+.Logo{
+  height: 40px;
+  width: 40px;
+}
